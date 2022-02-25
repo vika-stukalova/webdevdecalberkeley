@@ -1,0 +1,272 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(224, 255, 251);
+    font-family: optima, sans-serif;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    top: 50px;
+    padding: 50px;
+    background-color:white;
+}
+
+.nav-about {
+    background-color:white;
+}
+
+.nav-portfolio {
+    background-color:white;
+}
+
+.nav-contact {
+    background-color:white;
+}
+
+.logo {
+    flex-shrink: 3;
+    padding: 30px;
+}
+
+.headerpage {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 40px;
+    flex-wrap: wrap;
+}
+
+.nameandminidescription {
+    padding: 30px;
+    text-align: left;
+    width: 300px;
+    flex-direction: column;
+}
+
+.myname {
+    text-align: center;
+}
+
+.minidescription {
+    font-size: 30px;
+}
+
+
+.button {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    transition-duration: 0.2s;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color:rgb(0, 138, 119);
+    color: white;
+}
+
+
+.portfolioheader {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    top: 50px;
+    padding: 20px;
+    background-color:white;
+    border: solid;
+    width: 100%;
+    /* gap: 10px; */
+    margin-bottom: 40px;
+
+}
+
+.headertitle {
+    font-size: 50px;
+}
+
+.portfoliopagerow {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.portfolio {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 10px;
+    border-style: solid;
+    background-color:white;
+    margin-top: 10px;
+    width: 30%;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.projectname {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-around;
+    border-collapse: separate;
+    flex-direction: column;
+    gap: 10px;
+    background-color:white;
+}
+
+.hog {
+    background-color: white;
+    border: solid;
+    padding-left: 30px;
+    bottom: -10px;
+    border-collapse: separate;
+    border-spacing: 15px;
+    border-radius: 10px;
+} 
+
+.names {
+    background-color: white;
+    border: solid;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+
+.onright {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 10px;
+    border-style: solid;
+    background-color:white;
+    border-radius: 10px;
+}
+
+.projimage {
+    background: white;
+    padding: 30px;
+}
+
+.projname {
+    font-style: italic;
+    background-color: white;
+    font-size: 30px;
+}
+
+.projdesc {
+    background-color: white;
+    justify-content: space-between;
+
+}
+
+.project {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 10px;
+    border-style: solid;
+    background-color:white;
+    margin-top: 10px;
+    width: 30%;
+    height: 20%;
+    margin-right: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 40px;
+    top: 50px;
+    padding: 20px;
+    background-color:white;
+    border: solid;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+}
+
+.aboutmedesc {
+    text-align: left;
+    width: 30%;
+    flex-direction: column;
+}
+
+.contactme {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+}
+
+.contact {
+    padding-left: 30px;
+    flex-direction: column;
+    font-style: italic;
+}
+
+.actualcontact {
+    padding-left:30px;
+    flex-direction: column;
+}
+
+.imageandcontact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%
+}
+
+.actualcontactandfakeimage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactscolumn {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+h2 {
+    background-color: white;
+}
+
+h3 {
+    background-color: white;
+}
+
+h4 {
+    font-weight: normal;
+
+}
+
+h6 {
+    font-weight: normal;
+}
+
+p {
+    background-color: white;
+}
